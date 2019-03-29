@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,300,400,500,700|Roboto:100,300,400,700');
+
+/*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Exo', sans-serif;
+*/
+
+/*---------------------------------------------- colors*/
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+/*.menu-item a:hover {*/
+
+/*    background-color: rgba(0, 0, 0, 0.3);*/
+
+/*}*/
+
+/*------------------------------------------------- specials paddings / margins / text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0
+}
+
+
+.general-sub {
+    font-family: 'Exo', sans-serif;
+    color: #fafafa;
+}
+
+
+
+/*------------------------------------------------- header*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 2rem;
+}
+
+.logo {
+    background-image: url('../images/rosie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*min-height: 360px;*/
+    min-height: 260px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+/*.logo:hover {*/
+
+/*    background-size: 110%;*/
+
+/*}*/
+
+.name {
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    /*margin-top: 50px;*/
+    margin-top: 3rem;
+    color: #fff;
+    display: inline-block
+}
+
+.name:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    /*overwrite BS CSS to remove margin*/
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*css trick to remove extra margin in the nav items by setting font size=0*/
+
+.menu-container {
+    font-size: 0;
+}
+
+/*then set font-size with the #nav id to the li child to normal size*/
+
+#nav>li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    /*remove extra spacing at the bottom*/
+    margin: 0;
+}
+
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    /*height: 120px;*/
+    height: 100%;
+    display: block;
+    background: rgba(255, 0, 0, .3);
+}
+
+/*font-awesome icon*/
+
+.menu-item i {
+    display: block;
+    color: #fafafa;
+    padding-top: 2.3rem;
+    font-size: 28px;
+}
+
+.menu-item span {
+    display: block;
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+
+/*------------------------------------------------- hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/*------------------------------------------------- footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align-last: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
+    background-color: #e84610;
+}
