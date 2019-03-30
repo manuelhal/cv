@@ -47,6 +47,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    /*background-color: #3498db;*/
+    background-color: white;
+}
 
 
 /*------------------------------------------------- specials paddings / margins / text */
@@ -95,6 +99,7 @@ header {
 
 .logo {
     background-image: url('../images/rosie.jpg');
+    background-image: url('../images/girl-image.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -372,6 +377,47 @@ footer {
     background: #fafafa;
 }
 
-.history-items{
-    margin-bottom: 30px;    
+.history-items {
+    margin-bottom: 30px;
+}
+
+/*------------------------------------------------- contact */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.form-center {
+    /*mobile first*/
+    max-width: 80%;
+    margin: 2rem auto;
+    /*margin-bottom: 3rem;*/
+}
+
+/*just FYI, you can target button type*/
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    /*background-color: #e84610;*/
+}
+
+
+/* ----------------------------------------Media Queries for desktop*/
+
+@media(min-width: 992px) {
+
+    .form-center {
+        max-width: 50%;
+        /*min-height: 240px;*/
+        /*min-height: 900px;*/
+        margin: 2rem auto;
+        margin-bottom: 3rem;
+    }
+    
 }
